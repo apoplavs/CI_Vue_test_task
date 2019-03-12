@@ -231,19 +231,6 @@ class News_model extends MY_Model
 	        return FALSE;
         }
 	    return new self($CI->s->insert_id);
-    }
-
-    // public function showAll()
-    // {
-    //    $query = $this->db->get(self::TABLE);
-    //    $query = $this->db->get(self::TABLE);
-       
-    //     if($query->num_rows() > 0) {
-    //         return $query->result();
-    //     } else {
-    //         return false;
-    //     }
-    // }
-    
+    }    
 
 }

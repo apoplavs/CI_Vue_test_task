@@ -139,7 +139,11 @@ var v = new Vue({
         clearMSG(){
            setTimeout(function(){
   			     v.successMSG='';
-  			   },3000); // disappearing message success in 2 sec
+  			   },3000);
+        },
+        closeModal() {
+          v.addModal= false;
+          v.newsToAddComment = 0;
         }
     }
 })

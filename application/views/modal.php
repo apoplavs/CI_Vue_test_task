@@ -1,5 +1,5 @@
 <!--add modal-->
-<modal v-if="addModal">
+<modal v-if="addModal" @close="closeModal()">
 
 <h3 slot="head" >Добавить коментарий</h3>
 <div slot="body" class="row">

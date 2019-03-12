@@ -1,6 +1,8 @@
 <ul class="nav justify-content-center bg-dark text-light">
   <li class="nav-item">
-        <a class="nav-link text-white h4" href="<?php echo base_url();?>user">Test task Codeigniter&Vue JS <img src="<?php echo base_url();?>assets/img/civue.png" width="60" height="70"></a>
+    Test task
+        <img src="<?php echo base_url();?>assets/img/civue.png" width="60" height="70">
+        CI & Vue
   </li>
 </ul>
   <div id="app">
@@ -14,10 +16,6 @@
         </transition>
 
         <div class="col-md-12">
-          <!-- <pre>
-            {{news}}
-          </pre> -->
-
             <table class="table is-bordered is-hoverable">
                <thead class="text-white bg-dark" >
                 
